@@ -1,0 +1,16 @@
+database:
+  type: "H2"
+
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "quest_db"
+    username: "user"
+    password: "password"
+rewards:
+  zombie_hunter_1:
+    money: 100.5
+    experience: 50
+    items:
+      - 'DIAMOND:1'
+      - 'IRON_INGOT:5'

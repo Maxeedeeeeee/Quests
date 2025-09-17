@@ -1,0 +1,13 @@
+name: QuestSystem
+version: '1.0-SNAPSHOT'
+main: me.pvpclub.questSystem.QuestSystem
+api-version: '1.21'
+commands:
+  quests:
+    description: Opens the quest GUI.
+    usage: /quests
+    permission: questsystem.quests
+permissions:
+  questsystem.quests:
+    description: Allows a player to open the quest GUI.
+    default: true
